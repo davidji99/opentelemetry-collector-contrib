@@ -331,7 +331,7 @@ type ThreadPoolStats struct {
 
 type ProcessStats struct {
 	OpenFileDescriptorsCount int64              `json:"open_file_descriptors"`
-	MaxFileDescriptorsCount  int64              `json:"open_file_descriptors"`
+	MaxFileDescriptorsCount  int64              `json:"max_file_descriptors_count"`
 	Cpu                      ProcessCpuStats    `json:"cpu"`
 	Memory                   ProcessMemoryStats `json:"mem"`
 }
